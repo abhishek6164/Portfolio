@@ -2,8 +2,21 @@ import { Timeline } from "@mantine/core";
 import { IconBriefcaseFilled } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
 
+// Define the type for an individual experience item
+type ExperienceItem = {
+  role: string;
+  company: string;
+  date: string;
+  desc: string;
+  skills?: string[]; // skills can be optional
+};
+
+type TimelineItemProps = {
+  items: ExperienceItem[];
+};
+
 // TimelineItem as a component receiving items as props
-const TimelineItem = ({ items }: { items: any[] }) => {
+const TimelineItem = ({ items }: TimelineItemProps) => {
   return (
     <>
       {items.map((item, index) => (
@@ -14,12 +27,12 @@ const TimelineItem = ({ items }: { items: any[] }) => {
           <div className="border mt-12 border-primaryColor p-5 rounded-2xl transition-transform transition-shadow duration-300 hover:scale-[1.02] hover:shadow-[0_0_10px_#64FFDA80] ">
             <div className="flex gap-4 items-center">
               <img
-                src={`/images/${item.company.toLowerCase()}.jpeg`}
+                src={`/images/${item.company.toLowerCase()}.jpeg`} // Ensure the image path is correct
                 className="rounded-lg w-16"
                 alt={item.company}
-                onError={(e) =>
-                  (e.currentTarget.src = "/images/placeholder.jpg")
-                } // Fallback image
+                onError={
+                  (e) => (e.currentTarget.src = "/images/placeholder.jpg") // Fallback image
+                }
               />
               <div className="flex flex-col">
                 <div className="text-white text-2xl font-semi">{item.role}</div>

@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Info } from "../User";
 import { Button } from "@mantine/core";
 import Typewriter from "typewriter-effect";
@@ -47,7 +46,11 @@ export default function About() {
         id="photo"
       >
         <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center">
-          <img className="w-full h-full rounded-full" src="./public/images/profile2.jpg" alt="profile" />
+          <img
+            className="w-full h-full rounded-full"
+            src="./public/images/profile2.jpg"
+            alt="profile"
+          />
         </NeonGradientCard>
       </div>
     </div>

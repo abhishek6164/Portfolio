@@ -1,4 +1,3 @@
-import { Stack } from "@mantine/core";
 import {
   IconBrandX,
   IconBrandLinkedin,

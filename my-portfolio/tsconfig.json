@@ -9,11 +9,11 @@
     }
   ],
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src", // This should point to the 'src' directory
     "paths": {
       "@/*": [
-        "./src/*"
-      ]
+        "*"
+      ] // This allows the use of '@/...' for imports
     }
   }
 }
