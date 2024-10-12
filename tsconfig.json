@@ -9,6 +9,7 @@
     }
   ],
   "compilerOptions": {
+    "jsx": "react-jsx", // Use this for React 17 or newer
     "baseUrl": "src", // This should point to the 'src' directory
     "paths": {
       "@/*": [

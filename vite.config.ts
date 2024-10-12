@@ -1,10 +1,12 @@
-// vite.config.ts
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-  base: "/Portfolio/",
+  plugins: [react()], // Add the React plugin
+  base: "./Portfolio/",
   build: {
-     sourcemap: true, 
-    outDir: "build", // Change the output directory to 'build'
+    sourcemap: true,
+    outDir: "build",
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
