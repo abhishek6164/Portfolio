@@ -1,3 +1,13 @@
+// Define the type for the project object
+interface Project {
+  title: string;
+  desc: string;
+  image: string;
+  link: string;
+  github: string;
+}
+
+// Import the correct ProjectInfo, ensuring it's an array of Project objects
 import { ProjectInfo } from "../User";
 import ProjectCard from "./ProjectCard";
 
@@ -8,7 +18,7 @@ export default function Projects() {
         <span className="text-primaryColor">02.&nbsp;</span>Projects
       </h1>
       <div className="flex mt-12 flex-wrap justify-between gap-3">
-        {ProjectInfo.map((project: any, index: number) => (
+        {ProjectInfo.map((project: Project, index: number) => (
           <ProjectCard
             key={index}
             title={project.title}

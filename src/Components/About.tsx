@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <Button
           component="a"
-          href="./public/images/Abhishek.pdf"
+          href="Abhishek.pdf"
           download // This attribute will trigger a download
           color="#64FFDA"
           className="!text-black !w-fit font-mono text-lg"
@@ -48,7 +48,7 @@ export default function About() {
         <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center">
           <img
             className="w-full h-full rounded-full"
-            src="./public/images/profile2.jpg"
+            src="/profile2.jpg"
             alt="profile"
           />
         </NeonGradientCard>
