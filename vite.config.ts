@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: "/Portfolio/",
   build: {
+     sourcemap: true, 
     outDir: "build", // Change the output directory to 'build'
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
