@@ -9,7 +9,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import { useEffect } from "react";
 // ..
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 function App() {
   useEffect(() => {
