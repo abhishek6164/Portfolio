@@ -19,14 +19,13 @@ export default function ProjectCard({
 
   const truncateText = (text: string, wordLimit: number) => {
     const words = text.split(" ");
-    if (words.length > wordLimit) {
-      return words.slice(0, wordLimit).join(" ") + "...";
-    }
-    return text;
+    return words.length > wordLimit
+      ? `${words.slice(0, wordLimit).join(" ")}...`
+      : text;
   };
 
   return (
-    <div className="border p-4 rounded-3xl bg-gray-800 text-white w-full sm:w-[45%] md:w-[30%] my-4 border border-primaryColor hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_#64FFDA80]">
+    <div className="border p-4 rounded-3xl bg-gray-800 text-white w-full sm:w-[45%] md:w-[30%] my-4 border border-primaryColor hover:scale-[1.02] mb-5 hover:shadow-[0_0_10px_#64FFDA80]">
       <img
         src={image}
         alt={title}
@@ -40,7 +39,7 @@ export default function ProjectCard({
         {showMore ? desc : truncateText(desc, 20)}{" "}
         <button
           className="text-primaryColor mt-2 underline"
-          onClick={() => setShowMore(!showMore)}
+          onClick={() => setShowMore((prev) => !prev)}
           aria-label={
             showMore
               ? "Show less of project description"

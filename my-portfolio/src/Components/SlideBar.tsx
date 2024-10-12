@@ -22,15 +22,15 @@ const SideBar = () => {
           <Drawer.Header bg="#402E7A">
             <Drawer.CloseButton icon={<IconX size={40} stroke={1.5} />} />
           </Drawer.Header>
-          <Drawer.Body style={{ backgroundColor: "#402E7A" }}>
+          <Drawer.Body>
             <div className="flex flex-col items-center gap-5">
-              {navLinks(true)} {/* Passing true to render in sidebar style */}
+              {navLinks(true)} {/* Pass true to render in sidebar style */}
             </div>
           </Drawer.Body>
         </Drawer.Content>
       </Drawer.Root>
 
-      <Button className="md:!hidden  bg-bgColor text-textColor" onClick={open}>
+      <Button className="md:!hidden bg-bgColor text-textColor" onClick={open}>
         <IconMenu2 size={50} stroke={0.5} />
       </Button>
     </>

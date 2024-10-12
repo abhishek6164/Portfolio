@@ -6,11 +6,22 @@ function Resume() {
 
   return (
     <>
-      <Modal opened={opened} onClose={close} title="Resume">
-        {/* Modal content */}
+      <Modal opened={opened} onClose={close} title="Resume" size="lg">
+        {/* Modal content - Embed a PDF viewer for the resume */}
+        <div className="flex justify-center">
+          <iframe
+            src="/path/to/your/resume.pdf" // Replace with the path to your resume
+            width="100%"
+            height="500px"
+            frameBorder="0"
+            title="Resume PDF"
+          />
+        </div>
       </Modal>
 
-      <Button onClick={open}>Open modal</Button>
+      <Button onClick={open} variant="outline" color="blue">
+        Open Resume
+      </Button>
     </>
   );
 }

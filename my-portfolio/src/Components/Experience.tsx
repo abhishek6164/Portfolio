@@ -30,9 +30,9 @@ const TimelineItem = ({ items }: TimelineItemProps) => {
                 src={`/images/${item.company.toLowerCase()}.jpeg`} // Ensure the image path is correct
                 className="rounded-lg w-16"
                 alt={item.company}
-                onError={
-                  (e) => (e.currentTarget.src = "/images/placeholder.jpg") // Fallback image
-                }
+                onError={(e) =>
+                  (e.currentTarget.src = "/images/placeholder.jpg")
+                } // Fallback image
               />
               <div className="flex flex-col">
                 <div className="text-white text-2xl font-semi">{item.role}</div>

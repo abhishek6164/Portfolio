@@ -23,10 +23,10 @@ export default function Footer() {
       <h1 className="text-4xl mb-5 font-bold flex justify-center text-primaryColor">
         {Info.name}
       </h1>
-      <div className="md-mx:flex hidden text-textColor gap-8 sm-mx:gap-6 ">
+      <div className="hidden md:flex text-textColor gap-8 sm:gap-6">
         {socialIcons}
       </div>
-      <div className="flex flex-wrap justify-around text-xl ">
+      <div className="flex flex-wrap justify-around text-xl">
         <p className="text-textColor">
           Copyright © 2024 {Info.name} | All Rights Reserved
         </p>

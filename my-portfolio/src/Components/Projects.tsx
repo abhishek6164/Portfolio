@@ -20,7 +20,7 @@ export default function Projects() {
       <div className="flex mt-12 flex-wrap justify-between gap-3">
         {ProjectInfo.map((project: Project, index: number) => (
           <ProjectCard
-            key={index}
+            key={index} // Unique key prop
             title={project.title}
             desc={project.desc}
             image={project.image}

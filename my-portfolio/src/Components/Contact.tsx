@@ -1,12 +1,11 @@
 import { Button } from "@mantine/core";
 import FloatingInput from "./FloatingInput";
 import { useState } from "react";
-import Validation from "./Validation"; // Import the validation function
+import Validation from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../FireBase";
 import toast from "react-hot-toast";
 
-// Define and export the FormFields type
 export type FormFields = {
   name: string;
   email: string;
@@ -30,32 +29,29 @@ export default function Contact() {
   });
 
   const handleChange = (id: keyof FormFields, value: string) => {
-    setFormData({ ...formData, [id]: value });
-    setFormError({ ...formError, [id]: "" }); // Clear error on change
+    const error = Validation(id, value); // Validate on change
+    setFormError({ ...formError, [id]: error }); // Update error state
+    setFormData({ ...formData, [id]: value }); // Update form data
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault(); // Prevent page refresh
+    e.preventDefault();
 
     let valid = true;
-
-    // Initialize newFormError with default values
     const newFormError: { [key in keyof FormFields]: string } = {
       name: "",
       email: "",
       message: "",
     };
 
-    // Validate each field
     for (const key in formData) {
       const error = Validation(
         key as keyof FormFields,
         formData[key as keyof FormFields]
-      ); // Cast key to keyof FormFields
+      );
 
-      // Assign error message to the appropriate key if validation fails
       if (error.length > 0) {
-        newFormError[key as keyof FormFields] = error; // Assign error message to the appropriate key
+        newFormError[key as keyof FormFields] = error;
         valid = false;
       }
     }
@@ -89,11 +85,11 @@ export default function Contact() {
 
       <form
         className="w-[70%] mt-12 m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl transition-transform transition-shadow duration-300 hover:scale-[1.02] hover:shadow-[0_0_10px_#64FFDA80]"
-        onSubmit={handleSubmit} // Call handleSubmit on form submit
+        onSubmit={handleSubmit}
       >
         <div className="text-3xl text-white font-semibold">Let's Connect</div>
         <FloatingInput
-          id="name" // Correctly matches keyof FormFields
+          id="name"
           label="Name"
           value={formData.name}
           handleChange={handleChange}
