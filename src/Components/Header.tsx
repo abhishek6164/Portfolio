@@ -1,5 +1,6 @@
 import { IconHexagonLetterA } from "@tabler/icons-react";
 import SlideBar from "./SlideBar";
+import React from "react";
 
 const links = ["About", "Experience", "Skills", "Projects", "Contact"];
 

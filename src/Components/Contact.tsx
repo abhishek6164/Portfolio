@@ -5,7 +5,7 @@ import Validation from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../FireBase";
 import toast from "react-hot-toast";
-
+import React from "react";
 export type FormFields = {
   name: string;
   email: string;

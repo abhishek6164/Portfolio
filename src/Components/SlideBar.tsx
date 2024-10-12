@@ -2,6 +2,7 @@ import { useDisclosure } from "@mantine/hooks";
 import { Drawer, Button } from "@mantine/core";
 import { IconX, IconMenu2 } from "@tabler/icons-react";
 import { navLinks } from "./Header"; // Reuse the navLinks function
+import React from "react";
 
 const SideBar = () => {
   const [opened, { open, close }] = useDisclosure(false);

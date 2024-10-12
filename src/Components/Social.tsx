@@ -1,4 +1,5 @@
 import { SocialInfo } from "../User";
+import React from "react";
 
 export default function Social() {
   const socialLinks = SocialInfo; // Extract social information

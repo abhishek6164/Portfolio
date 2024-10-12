@@ -1,6 +1,7 @@
 import { Timeline } from "@mantine/core";
 import { IconBriefcaseFilled } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
+import React from "react";
 
 // Define the type for an individual experience item
 type ExperienceItem = {

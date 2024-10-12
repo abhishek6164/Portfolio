@@ -1,5 +1,6 @@
 import SkillCard from "./SkillCard";
 import { SkillInfo } from "../User";
+import React from "react";
 
 interface Skill {
   title: string;

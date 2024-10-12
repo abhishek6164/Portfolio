@@ -1,5 +1,6 @@
 import { useDisclosure } from "@mantine/hooks";
 import { Modal, Button } from "@mantine/core";
+import React from "react";
 
 function Resume() {
   const [opened, { open, close }] = useDisclosure(false);
@@ -13,7 +14,6 @@ function Resume() {
             src="/path/to/your/resume.pdf" // Replace with the path to your resume
             width="100%"
             height="500px"
-            frameBorder="0"
             title="Resume PDF"
           />
         </div>
