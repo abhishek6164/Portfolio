@@ -1,3 +1,5 @@
+import React from "react";
+
 // Define the type for the project object
 interface Project {
   title: string;

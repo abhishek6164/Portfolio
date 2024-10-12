@@ -1,4 +1,5 @@
 import { FormFields } from "./Contact"; // Adjust the path if necessary
+import React from "react";
 
 interface FloatingInputProps {
   id: keyof FormFields; // Ensure this matches the FormFields keys

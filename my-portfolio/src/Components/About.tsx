@@ -3,6 +3,7 @@ import { Button } from "@mantine/core";
 import Typewriter from "typewriter-effect";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
 import profileImage from "./public/images/profile2.jpg"; // Import the profile image
+import React from "react";
 
 export default function About() {
   return (

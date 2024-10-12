@@ -1,5 +1,6 @@
 import { useDisclosure } from "@mantine/hooks";
 import { Modal, Button } from "@mantine/core";
+import React from "react";
 
 function Resume() {
   const [opened, { open, close }] = useDisclosure(false);

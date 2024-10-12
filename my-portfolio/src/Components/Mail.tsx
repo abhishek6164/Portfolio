@@ -1,3 +1,4 @@
+import React from "react";
 export default function Mail() {
   return (
     <div className="flex text-textColor items-center fixed bottom-32 -right-56 rotate-90">

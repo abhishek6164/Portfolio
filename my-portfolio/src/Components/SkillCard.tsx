@@ -1,3 +1,5 @@
+import React from "react";
+
 interface SkillCardProps {
   title: string;
   skills: string[];

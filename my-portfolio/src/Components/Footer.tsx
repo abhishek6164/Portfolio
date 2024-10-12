@@ -1,4 +1,5 @@
 import { Info, SocialInfo } from "../User";
+import React from "react";
 
 export default function Footer() {
   const socialLinks = SocialInfo; // Use socialLinks only here
