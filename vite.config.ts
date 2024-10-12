@@ -1,7 +1,7 @@
 // vite.config.ts
 import { defineConfig } from 'vite';
 export default defineConfig({
-  base: "/Portfolio/my-portfolio/",
+  base: "/Portfolio/",
   build: {
     outDir: "build", // Change the output directory to 'build'
     chunkSizeWarningLimit: 1000,

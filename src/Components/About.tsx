@@ -2,6 +2,7 @@ import { Info } from "../User";
 import { Button } from "@mantine/core";
 import Typewriter from "typewriter-effect";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
+import profileImage from "./public/images/profile2.jpg"; // Import the profile image
 
 export default function About() {
   return (
@@ -32,7 +33,7 @@ export default function About() {
         <Button
           component="a"
           href="./public/images/Abhishek.pdf"
-          download // This attribute will trigger a download
+          download
           color="#64FFDA"
           className="!text-black !w-fit font-mono text-lg"
           variant="filled"
@@ -48,7 +49,7 @@ export default function About() {
         <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center">
           <img
             className="w-full h-full rounded-full"
-            src="./public/images/profile2.jpg"
+            src={profileImage} // Use the imported image
             alt="profile"
           />
         </NeonGradientCard>

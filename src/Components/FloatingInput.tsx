@@ -1,4 +1,3 @@
-// floating.tsx
 import { FormFields } from "./Contact"; // Adjust the path if necessary
 
 interface FloatingInputProps {
@@ -6,7 +5,7 @@ interface FloatingInputProps {
   label: string;
   value: string;
   handleChange: (id: keyof FormFields, value: string) => void; // Ensure type matches
-  type?: string; // Optional, defaults to "text"
+  type?: "text" | "email" | "textarea"; // Optional, defaults to "text"
   error?: string; // Optional error message
 }
 
