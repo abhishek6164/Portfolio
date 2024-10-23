@@ -21,7 +21,7 @@ export default function Social() {
   });
 
   return (
-    <div className="flex text-textColor items-center gap-5 fixed bottom-40 -left-44 rotate-90">
+    <div className="flex md-mx:hidden text-textColor items-center gap-5 fixed bottom-40 -left-44 rotate-90">
       {socialIcons}
       <hr className="border-2 bg-textColor rounded-full border-textColor w-40" />
     </div>

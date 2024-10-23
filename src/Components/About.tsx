@@ -2,19 +2,29 @@ import { Info } from "../User";
 import { Button } from "@mantine/core";
 import Typewriter from "typewriter-effect";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
+import Particles from "./magicui/Particles";
 
 export default function About() {
   return (
     <div
-      className="flex items-center justify-around overflow-hidden px-1 h-[100vh] font-mono"
+      className="flex relative justify-around overflow-hidden h-[90%] py-10 px-10 font-mono"
       id="bg"
     >
-      <div className="ml-20 w-3/5 flex-col flex">
-        <div className="text-3xl text-primaryColor">Hi, I am</div>
-        <div className="text-white text-[4.25rem] font-extrabold">
+      <Particles
+        className="absolute inset-0"
+        quantity={1000}
+        ease={80}
+        color="#64ffda"
+        refresh
+      />
+      <div className="ml-10 w-3/5 flex flex-col ">
+        <div className="text-3xl text-primaryColor lg:text-2xl bs:text-2xl">
+          Hi, I am
+        </div>
+        <div className="text-white text-[4.25rem] font-extrabold lg:text-4xl bs:text-3xl">
           {Info.name}
         </div>
-        <div className="text-white text-4xl flex font-semibold">
+        <div className="text-white text-4xl flex font-semibold lg:text-3xl bs:text-2xl">
           I'm a&nbsp;
           <span className="text-primaryColor">
             <Typewriter
@@ -26,29 +36,33 @@ export default function About() {
             />
           </span>
         </div>
-        <div className="text-textColor text-justify my-8 text-xl font-semibold w-[90%]">
+        <div className="text-textColor text-xl my-8 text-justify font-semibold w-[90%] lg:text-lg bs:text-base md:w-full">
           {Info.bio}
         </div>
-        <Button
-          component="a"
-          href="./public/images/Abhishek.pdf"
-          download // This attribute will trigger a download
-          color="#64FFDA"
-          className="!text-black !w-fit font-mono text-lg"
-          variant="filled"
-          target="_blank"
-        >
-          Check Resume
-        </Button>
+        <div className="flex gap-3">
+          <Button
+            component="a"
+            href="./images/Abhishek.pdf"
+            download
+            color="#64FFDA"
+            className="!text-black !w-fit font-mono text-lg"
+            variant="filled"
+            target="_blank"
+          >
+            Check Resume
+          </Button>
+        </div>
       </div>
+
+      {/* photo */}
       <div
-        className="h-fit flex justify-center items-center rounded-full m-14 w-fit "
+        className="h-fit flex justify-center items-center rounded-full m-14 w-fit"
         id="photo"
       >
-        <NeonGradientCard className="w-[325px] h-[325px] items-center justify-center text-center">
+        <NeonGradientCard className="w-[325px] h-[325px] lg:w-[275px] lg:h-[275px] bs:w-[225px] bs:h-[225px]">
           <img
             className="w-full h-full rounded-full"
-            src="./public/images/profile2.jpg"
+            src="./images/abhishek_pipriye.jpg"
             alt="profile"
           />
         </NeonGradientCard>

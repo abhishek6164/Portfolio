@@ -1,5 +1,5 @@
 // Import necessary libraries and components
-import { MantineProvider } from "@mantine/core";
+import { createTheme, MantineProvider } from "@mantine/core";
 import "./App.css"; // Custom styles
 import HomePage from "./Components/HomePage"; // Adjusted import path for consistency
 import "@mantine/core/styles.css"; // Mantine core styles
@@ -17,9 +17,19 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, []);
-
+const theme = createTheme({
+    breakpoints: {
+      'xs': "320px",
+      'sm': "476px",
+      'md': "640px",
+      'bs': "768px",
+      'lg': "900px",
+      'xl': "1024px",
+      '2xl': "1280px",
+    },
+  });
   return (
-    <MantineProvider>
+    <MantineProvider theme={theme}>
       <HomePage />
     </MantineProvider>
   );
