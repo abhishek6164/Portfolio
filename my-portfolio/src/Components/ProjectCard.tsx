@@ -30,7 +30,7 @@ export default function ProjectCard({
         src={image}
         alt={title}
         className="w-full h-[200px] object-cover rounded-3xl"
-        onError={(e) => (e.currentTarget.src = "/images/fallback-image.jpg")}
+        onError={(e) => (e.currentTarget.src = "images/fallback-image.jpg")}
       />
 
       <h2 className="text-2xl font-bold mt-4">{title}</h2>
