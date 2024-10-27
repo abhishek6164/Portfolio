@@ -43,7 +43,7 @@ export default function About() {
         </div>
         <Button
           component="a"
-          href="./Abhishek.pdf"
+          href="Abhishek.pdf" // leading slash for the root
           download
           color="#64FFDA"
           className="!text-black !w-fit font-mono text-lg"
@@ -59,7 +59,7 @@ export default function About() {
         <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
           <img
             className="w-full h-full rounded-full"
-            src="./public/images/abhishek_pipriye.jpg"
+            src="images/abhishek_pipriye.jpg" // leading slash for the root
             alt="profile"
           />
         </NeonGradientCard>
