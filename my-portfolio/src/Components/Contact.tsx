@@ -1,11 +1,13 @@
 import { Button } from "@mantine/core";
 import FloatingInput from "./FloatingInput";
 import { useState } from "react";
+import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 import Validation from "./Validation";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../FireBase";
 import toast from "react-hot-toast";
 import React from "react";
+
 export type FormFields = {
   name: string;
   email: string;
@@ -78,26 +80,32 @@ export default function Contact() {
   };
 
   return (
-    <div className="px-16 mt-20 mx-20 font-mono mt-24 my-10 ">
-      <h1 className="text-4xl mb-5 font-bold flex justify-center text-white">
+    <div
+      className="px-16 md-mx:px-8 sm-mx:px-4 mx-20 lg-mx:mx-10 md-mx:mx-0 my-10 font-mono"
+      id="Contact"
+    >
+      <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white">
         <span className="text-primaryColor">05.&nbsp;</span>Contact
       </h1>
-
-      <form
-        className="w-[70%] mt-12 m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl transition-transform transition-shadow duration-300 hover:scale-[1.02] hover:shadow-[0_0_10px_#64FFDA80]"
-        onSubmit={handleSubmit}
+      <div
+        data-aos="flip-left"
+        data-aos-duration="800"
+        className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl sm-mx:p-4"
       >
-        <div className="text-3xl text-white font-semibold">Let's Connect</div>
+        <div className="text-3xl flex gap-2 items-center text-white font-semibold sm-mx:text-2xl xs-mx:text-xl">
+          Let's Connect
+          <IconTopologyStar3 className="w-10 text-primaryColor h-10 sm-mx:w-7 sm-mx:h-7" />
+        </div>
         <FloatingInput
           id="name"
-          label="Name"
+          name="Name" // Updated to use name instead of label
           value={formData.name}
           handleChange={handleChange}
           error={formError.name}
         />
         <FloatingInput
           id="email"
-          label="Email"
+          name="Email" // Updated to use name instead of label
           type="email"
           value={formData.email}
           handleChange={handleChange}
@@ -105,20 +113,26 @@ export default function Contact() {
         />
         <FloatingInput
           id="message"
-          label="Message"
+          name="Message" // Updated to use name instead of label
           type="textarea"
           value={formData.message}
           handleChange={handleChange}
           error={formError.message}
         />
         <Button
+          onClick={handleSubmit}
           type="submit"
-          className="mt-5 rounded-xl bg-primaryColor text-black text-xl hover:bg-customGreen hover:text-black"
+          className="!text-bgColor !font-bold"
+          rightSection={<IconArrowRight size={20} />}
           fullWidth
+          variant="filled"
+          size="md"
+          radius="lg"
+          color="#64FFDA"
         >
-          Send &#8594;
+          Send
         </Button>
-      </form>
+      </div>
     </div>
   );
 }

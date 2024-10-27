@@ -1,15 +1,15 @@
-// firebase.js
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
-  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
+  apiKey: "AIzaSyDUMVwyiqIF2oqAs2P1Q9ARFg_rW6KLa90",
+  authDomain: "portfolio-c2eb5.firebaseapp.com",
+  projectId: "portfolio-c2eb5",
+  storageBucket: "portfolio-c2eb5.appspot.com",
+  messagingSenderId: "1075855895894",
+  appId: "1:1075855895894:web:84bce0fcb102da45593af7",
+  measurementId: "G-7M6ZQX0WSC",
 };
 
 // Initialize Firebase

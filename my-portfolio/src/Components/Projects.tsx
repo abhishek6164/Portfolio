@@ -1,5 +1,3 @@
-import React from "react";
-
 // Define the type for the project object
 interface Project {
   title: string;
@@ -15,11 +13,11 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="px-16 mx-20 mt-20 font-mono my-10">
-      <h1 className="text-4xl mb-5 font-bold flex justify-center text-white">
+    <div className="px-16  my-10 font-mono md-mx:px-6" id="Projects">
+      <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl text-center mb-10 font-bold text-white">
         <span className="text-primaryColor">02.&nbsp;</span>Projects
       </h1>
-      <div className="flex mt-12 flex-wrap justify-between gap-3">
+      <div className="flex flex-wrap justify-around md-mx:justify-between sm-mx:justify-center gap-4 md-mx:gap-2">
         {ProjectInfo.map((project: Project, index: number) => (
           <ProjectCard
             key={index} // Unique key prop

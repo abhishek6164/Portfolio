@@ -1,5 +1,4 @@
 import { useState } from "react";
-import React from "react";
 
 interface ProjectCardProps {
   title: string;
@@ -36,10 +35,10 @@ export default function ProjectCard({
 
       <h2 className="text-2xl font-bold mt-4">{title}</h2>
 
-      <p className="mt-2">
+      <p className="mt-2 text-textColor">
         {showMore ? desc : truncateText(desc, 20)}{" "}
         <button
-          className="text-primaryColor mt-2 underline"
+          className="text-primaryColor  mt-2 underline"
           onClick={() => setShowMore((prev) => !prev)}
           aria-label={
             showMore

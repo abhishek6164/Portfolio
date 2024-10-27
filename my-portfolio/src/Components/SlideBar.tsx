@@ -1,41 +1,42 @@
 import { useDisclosure } from "@mantine/hooks";
-import { Drawer, Button } from "@mantine/core";
-import { IconX, IconMenu2 } from "@tabler/icons-react";
-import { navLinks } from "./Header"; // Reuse the navLinks function
-import React from "react";
+import { Drawer, Burger, useMatches } from "@mantine/core";
+import { navLinks } from "./Header";
 
-const SideBar = () => {
-  const [opened, { open, close }] = useDisclosure(false);
+const SlideBar = () => {
+  const [opened, { toggle }] = useDisclosure(false);
+  const size = useMatches({
+    xs: "md",
+    sm: "lg",
+  });
 
   return (
     <>
       <Drawer.Root
-        className="md:hidden"
+        className="bs:hidden !-z-10"
         position="right"
         opened={opened}
+        onClose={toggle}
         size="50vw"
-        onClose={close}
       >
-        <Drawer.Overlay
-          style={{ background: "rgba(0, 0, 0, 0.5)", filter: "blur(4px)" }}
-        />
-        <Drawer.Content bg="#402E7A">
-          <Drawer.Header bg="#402E7A">
-            <Drawer.CloseButton icon={<IconX size={40} stroke={1.5} />} />
-          </Drawer.Header>
-          <Drawer.Body>
-            <div className="flex flex-col items-center gap-5">
-              {navLinks(true)} {/* Pass true to render in sidebar style */}
-            </div>
+        <Drawer.Overlay className="!-z-0 !backdrop-opacity-85 blur-sm" />
+        <Drawer.Content className="!-z-0" bg="#112240">
+          <Drawer.Body
+            className="mt-20 xs:mt-24  flex flex-col gap-5"
+            bg="#112240"
+          >
+            {navLinks(true, toggle)}
           </Drawer.Body>
         </Drawer.Content>
       </Drawer.Root>
 
-      <Button className="md:!hidden bg-bgColor text-textColor" onClick={open}>
-        <IconMenu2 size={50} stroke={0.5} />
-      </Button>
+      <Burger
+        className="bs:!hidden !z-50 relative"
+        size={size}
+        color="#64FFDA"
+        opened={opened}
+        onClick={toggle}
+      />
     </>
   );
 };
-
-export default SideBar;
+export default SlideBar;
