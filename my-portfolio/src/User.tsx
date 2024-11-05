@@ -25,51 +25,51 @@ const Info = {
 const ProjectInfo = [
   {
     title: "Sanatan Ki Virasat",
-    desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma, exploring its rich cultural and spiritual legacy as rooted in the ancient Vedic scriptures. The website serves as a gateway to understanding the profound wisdom, rituals, and philosophies that have shaped Indian civilization for millennia.",
-    image: "public/images/vedas.jpeg",
-    technologies: ["HTML", "CSS", "Javascript", "Bootscrapt"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
+    image: "./images/vedas.jpeg",
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    github: "https://github.com/abhishek6164/sanatan-ki-virasat", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/sanatan-ki-virasat/", // replace with the actual hosted link
   },
   {
     title: "Weather Update",
-    desc: "WeatherNow is a dynamic and responsive weather update website built using React.js, designed to provide real-time weather information for any location. The website fetches live data from a weather API, allowing users to check current conditions, temperature, humidity, wind speed, and a 7-day forecast in an intuitive and visually engaging interface.",
-    image: "public/images/weather.jpeg",
+    desc: "WeatherNow is a dynamic and responsive weather update website...",
+    image: "./images/weather.jpeg",
     technologies: ["React", "API"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    github: "https://github.com/abhishek6164/weather-now", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/weather-now/", // replace with the actual hosted link
   },
   {
     title: "NextInLine",
-    desc: "NextInLine is a dynamic e-commerce platform designed to simplify the shopping experience by offering a seamless user interface and efficient back-end operations. Built using modern web technologies like React for the front end, Node.js and Express for the server, and MongoDB for the database, this platform ensures fast performance and scalability",
-    image: "public/images/ecommerce.jpeg",
+    desc: "NextInLine is a dynamic e-commerce platform...",
+    image: "./images/ecommerce.jpeg",
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    github: "https://github.com/abhishek6164/next-inline", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/next-inline/", // replace with the actual hosted link
   },
   {
     title: "Sanatan Ki Virasat",
-    desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma, exploring its rich cultural and spiritual legacy as rooted in the ancient Vedic scriptures. The website serves as a gateway to understanding the profound wisdom, rituals, and philosophies that have shaped Indian civilization for millennia.",
-    image: "./public/images/vedas.jpeg",
-    technologies: ["HTML", "CSS", "Javascript", "Bootscrapt"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
+    image: "./images/vedas.jpeg",
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    github: "https://github.com/abhishek6164/sanatan-ki-virasat", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/sanatan-ki-virasat/", // replace with the actual hosted link
   },
   {
     title: "Weather Update",
-    desc: "WeatherNow is a dynamic and responsive weather update website built using React.js, designed to provide real-time weather information for any location. The website fetches live data from a weather API, allowing users to check current conditions, temperature, humidity, wind speed, and a 7-day forecast in an intuitive and visually engaging interface.",
-    image: "public/images/weather.jpeg",
+    desc: "WeatherNow is a dynamic and responsive weather update website...",
+    image: "./images/weather.jpeg",
     technologies: ["React", "API"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    github: "https://github.com/abhishek6164/weather-now", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/weather-now/", // replace with the actual hosted link
   },
   {
     title: "NextInLine",
-    desc: "NextInLine is a dynamic e-commerce platform designed to simplify the shopping experience by offering a seamless user interface and efficient back-end operations. Built using modern web technologies like React for the front end, Node.js and Express for the server, and MongoDB for the database, this platform ensures fast performance and scalability",
-    image: "public/images/ecommerce.jpeg",
+    desc: "NextInLine is a dynamic e-commerce platform...",
+    image: "./images/ecommerce.jpeg",
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
-    github: "www.google.com", // here i need to add github link of the project
-    link: "www.google.com", // here i need to add live hosted link of the project
+    github: "https://github.com/abhishek6164/next-inline", // replace with the actual GitHub link
+    link: "https://abhishek6164.github.io/next-inline/", // replace with the actual hosted link
   },
 ];
 
