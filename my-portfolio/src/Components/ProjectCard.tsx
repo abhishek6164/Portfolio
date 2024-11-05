@@ -25,12 +25,12 @@ export default function ProjectCard({
   };
 
   return (
-    <div className="border p-4 rounded-3xl bg-gray-800 text-white w-full sm:w-[45%] md:w-[30%] my-4 border border-primaryColor hover:scale-[1.02] mb-5 hover:shadow-[0_0_10px_#64FFDA80]">
+    <div className=" p-4 rounded-3xl bg-gray-800 text-white w-full sm:w-[45%] md:w-[30%] my-4 border border-primaryColor hover:scale-[1.02] mb-5 hover:shadow-[0_0_10px_#64FFDA80]">
       <img
         src={image}
         alt={title}
         className="w-full h-[200px] object-cover rounded-3xl"
-        onError={(e) => (e.currentTarget.src = "images/fallback-image.jpg")}
+        
       />
 
       <h2 className="text-2xl font-bold mt-4">{title}</h2>

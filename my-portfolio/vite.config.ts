@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === 'production' ? "/Portfolio/" : "/",  // Conditional base path
+  base: process.env.NODE_ENV === 'production' ? "/Portfolio/" : "/",
   build: {
     sourcemap: true,
     outDir: "dist",  // Set outDir to "dist" for Netlify compatibility

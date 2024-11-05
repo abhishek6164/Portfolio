@@ -26,7 +26,7 @@ const ProjectInfo = [
   {
     title: "Sanatan Ki Virasat",
     desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma, exploring its rich cultural and spiritual legacy as rooted in the ancient Vedic scriptures. The website serves as a gateway to understanding the profound wisdom, rituals, and philosophies that have shaped Indian civilization for millennia.",
-    image: "./public/images/vedas.jpeg",
+    image: "public/images/vedas.jpeg",
     technologies: ["HTML", "CSS", "Javascript", "Bootscrapt"],
     github: "www.google.com", // here i need to add github link of the project
     link: "www.google.com", // here i need to add live hosted link of the project
@@ -34,7 +34,7 @@ const ProjectInfo = [
   {
     title: "Weather Update",
     desc: "WeatherNow is a dynamic and responsive weather update website built using React.js, designed to provide real-time weather information for any location. The website fetches live data from a weather API, allowing users to check current conditions, temperature, humidity, wind speed, and a 7-day forecast in an intuitive and visually engaging interface.",
-    image: "./public/images/weather.jpeg",
+    image: "public/images/weather.jpeg",
     technologies: ["React", "API"],
     github: "www.google.com", // here i need to add github link of the project
     link: "www.google.com", // here i need to add live hosted link of the project
@@ -42,7 +42,7 @@ const ProjectInfo = [
   {
     title: "NextInLine",
     desc: "NextInLine is a dynamic e-commerce platform designed to simplify the shopping experience by offering a seamless user interface and efficient back-end operations. Built using modern web technologies like React for the front end, Node.js and Express for the server, and MongoDB for the database, this platform ensures fast performance and scalability",
-    image: "./public/images/ecommerce.jpeg",
+    image: "public/images/ecommerce.jpeg",
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
     github: "www.google.com", // here i need to add github link of the project
     link: "www.google.com", // here i need to add live hosted link of the project
@@ -58,7 +58,7 @@ const ProjectInfo = [
   {
     title: "Weather Update",
     desc: "WeatherNow is a dynamic and responsive weather update website built using React.js, designed to provide real-time weather information for any location. The website fetches live data from a weather API, allowing users to check current conditions, temperature, humidity, wind speed, and a 7-day forecast in an intuitive and visually engaging interface.",
-    image: "./public/images/weather.jpeg",
+    image: "public/images/weather.jpeg",
     technologies: ["React", "API"],
     github: "www.google.com", // here i need to add github link of the project
     link: "www.google.com", // here i need to add live hosted link of the project
@@ -66,7 +66,7 @@ const ProjectInfo = [
   {
     title: "NextInLine",
     desc: "NextInLine is a dynamic e-commerce platform designed to simplify the shopping experience by offering a seamless user interface and efficient back-end operations. Built using modern web technologies like React for the front end, Node.js and Express for the server, and MongoDB for the database, this platform ensures fast performance and scalability",
-    image: "./public/images/ecommerce.jpeg",
+    image: "public/images/ecommerce.jpeg",
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
     github: "www.google.com", // here i need to add github link of the project
     link: "www.google.com", // here i need to add live hosted link of the project
