@@ -9,7 +9,7 @@ interface Skill {
 
 export default function Projects() {
   return (
-    <div className="px-16 mx-20 mt-20 font-mono my-10">
+    <div className="px-16  my-10 font-mono md-mx:px-6">
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white">
         <span className="text-primaryColor">03.&nbsp;</span>Skills
       </h1>
