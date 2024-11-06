@@ -25,7 +25,7 @@ const Experience = () => {
         <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl">
           <div className="flex gap-2 items-center">
             <img
-              src={`images/${item.company.toLowerCase()}.jpeg`}
+              src={`${item.company.toLowerCase()}.jpeg`}
               className="rounded-lg w-16"
               alt={item.company}
               onError={(e) => (e.currentTarget.src = "images/placeholder.jpg")}
