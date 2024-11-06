@@ -26,7 +26,7 @@ const ProjectInfo = [
   {
     title: "Sanatan Ki Virasat",
     desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
-    image: "images/vedas.jpeg", // Updated path
+    image: "images/abhishek_pipriye.jpg", // Updated path
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
     github: "https://github.com/abhishek6164/sanatan-ki-virasat",
     link: "https://abhishek6164.github.io/sanatan-ki-virasat/",
