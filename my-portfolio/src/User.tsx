@@ -26,7 +26,7 @@ const ProjectInfo = [
   {
     title: "Sanatan Ki Virasat",
     desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
-    image: "/vedas.jpeg",
+    image: "vedas.jpeg", // Correct path (directly in public)
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
     github: "https://github.com/abhishek6164/sanatan-ki-virasat",
     link: "https://abhishek6164.github.io/sanatan-ki-virasat/",
@@ -34,7 +34,7 @@ const ProjectInfo = [
   {
     title: "Weather Update",
     desc: "WeatherNow is a dynamic and responsive weather update website...",
-    image: "/weather.jpeg",
+    image: "weather.jpeg", // Correct path (directly in public)
     technologies: ["React", "API"],
     github: "https://github.com/abhishek6164/weather-now",
     link: "https://abhishek6164.github.io/weather-now/",
@@ -42,7 +42,7 @@ const ProjectInfo = [
   {
     title: "NextInLine",
     desc: "NextInLine is a dynamic e-commerce platform...",
-    image: "/ecommerce.jpeg",
+    image: "ecommerce.jpeg", // Correct path (directly in public)
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
     github: "https://github.com/abhishek6164/next-inline",
     link: "https://abhishek6164.github.io/next-inline/",
