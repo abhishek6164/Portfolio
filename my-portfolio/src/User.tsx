@@ -26,50 +26,26 @@ const ProjectInfo = [
   {
     title: "Sanatan Ki Virasat",
     desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
-    image: "images/vedas.jpeg", // Updated path
+    image: "/images/vedas.jpeg", // Path should start with '/'
     technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
-    github: "https://github.com/abhishek6164/sanatan-ki-virasat", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/sanatan-ki-virasat/", // replace with the actual hosted link
+    github: "https://github.com/abhishek6164/sanatan-ki-virasat",
+    link: "https://abhishek6164.github.io/sanatan-ki-virasat/",
   },
   {
     title: "Weather Update",
     desc: "WeatherNow is a dynamic and responsive weather update website...",
-    image: "images/weather.jpeg", // Updated path
+    image: "/images/weather.jpeg",
     technologies: ["React", "API"],
-    github: "https://github.com/abhishek6164/weather-now", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/weather-now/", // replace with the actual hosted link
+    github: "https://github.com/abhishek6164/weather-now",
+    link: "https://abhishek6164.github.io/weather-now/",
   },
   {
     title: "NextInLine",
     desc: "NextInLine is a dynamic e-commerce platform...",
-    image: "images/ecommerce.jpeg", // Updated path
+    image: "/images/ecommerce.jpeg",
     technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
-    github: "https://github.com/abhishek6164/next-inline", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/next-inline/", // replace with the actual hosted link
-  },
-  {
-    title: "Sanatan Ki Virasat",
-    desc: "Sanatan Ki Virasat is a project that delves into the timeless heritage of Sanatan Dharma...",
-    image: "images/vedas.jpeg", // Updated path
-    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
-    github: "https://github.com/abhishek6164/sanatan-ki-virasat", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/sanatan-ki-virasat/", // replace with the actual hosted link
-  },
-  {
-    title: "Weather Update",
-    desc: "WeatherNow is a dynamic and responsive weather update website...",
-    image: "images/weather.jpeg", // Updated path
-    technologies: ["React", "API"],
-    github: "https://github.com/abhishek6164/weather-now", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/weather-now/", // replace with the actual hosted link
-  },
-  {
-    title: "NextInLine",
-    desc: "NextInLine is a dynamic e-commerce platform...",
-    image: "images/ecommerce.jpeg", // Updated path
-    technologies: ["React", "Node.JS", "MongoDB", "Tailwind"],
-    github: "https://github.com/abhishek6164/next-inline", // replace with the actual GitHub link
-    link: "https://abhishek6164.github.io/next-inline/", // replace with the actual hosted link
+    github: "https://github.com/abhishek6164/next-inline",
+    link: "https://abhishek6164.github.io/next-inline/",
   },
 ];
 
