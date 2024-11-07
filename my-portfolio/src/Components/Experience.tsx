@@ -23,14 +23,17 @@ const Experience = () => {
         bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />}
       >
         <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl">
-          <div className="flex gap-2 items-center">
+          <div
+            className="flex gap-2 items-center
+           xsm-mx:flex-wrap xsm-mx:flex-col  bs-mx:p-3 sm-mx:w-full"
+          >
             <img
               src={`${item.company.toLowerCase()}.jpeg`}
               className="rounded-lg w-16"
               alt={item.company}
               onError={(e) => (e.currentTarget.src = "images/placeholder.jpg")}
             />
-            <div className="flex flex-col">
+            <div className="flex flex-col xsm-mx:justify-center">
               <div className="text-white text-2xl font-semibold">
                 {item.role}
               </div>
@@ -59,7 +62,7 @@ const Experience = () => {
 
   return (
     <div
-      className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono"
+      className="flex md-mx:flex-col px-16  my-10 font-mono md-mx:px-6  "
       id="Experience"
     >
       <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white">
