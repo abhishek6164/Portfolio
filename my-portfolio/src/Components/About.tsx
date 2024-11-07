@@ -45,7 +45,7 @@ export default function About() {
         </div>
         <Button
           component="a"
-          href="Abhishek.pdf" // leading slash for the root
+          href="Abhishek_Pipriye.pdf" // leading slash for the root
           download
           color="#64FFDA"
           className="!text-black !w-fit font-mono text-lg"
