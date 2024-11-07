@@ -1,0 +1,167 @@
+[33mcommit d7567dde2d1b8ce5207f8a8be17e78b3349030c3[m[33m ([m[1;36mHEAD -> [m[1;32mfix-image-paths[m[33m)[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 17:49:19 2024 +0530
+
+    Fix image paths and update components
+
+[33mcommit 039b99964f579f3653a04e0ede0e9c251300e0ac[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 17:40:22 2024 +0530
+
+    Fix image paths for GitHub Pages
+
+[33mcommit a39c54d6321cca94e0ef11e54fcef7debe69e11a[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 17:17:03 2024 +0530
+
+    Fix image paths for GitHub Pages
+
+[33mcommit b3233bc92aa38f346195fdbf59f15c085dd3f030[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 15:20:18 2024 +0530
+
+    Fixed image paths for GitHub Pages
+
+[33mcommit bac9305b5b81a0bc83ee4d66a80439b0a400b2e6[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 14:46:35 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit e27aa29d056350fb8634c3f1d257bae47b255701[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 13:19:35 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit ea51292b0afa8ec3f44290d51e7928bc7623a819[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 13:17:46 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit aeb63d85189f1f41e754364792a520da2d35747a[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 13:14:13 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit eb13ed802a16af5188b2ffa8dac95806d3e029dc[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 13:08:59 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit 47a3da2fcc84b70cc9dc389d5a501e44439726fc[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 12:58:04 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit 24f0347551fa35a4679f1c2622e0246f128ce838[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Nov 6 00:04:19 2024 +0530
+
+    Fix image paths in ProjectInfo
+
+[33mcommit cc09548bea730f54a52bd05781228d1553c0cd24[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Tue Nov 5 23:58:43 2024 +0530
+
+    Your commit message
+
+[33mcommit 50d5c3b774c0865363d691f8ab7fb28d1611be75[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Tue Nov 5 23:54:21 2024 +0530
+
+    Your commit message
+
+[33mcommit 36eec4f44c287af1e2fbda24f8799e9a4dbedf9a[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Tue Nov 5 23:46:53 2024 +0530
+
+    Your commit message
+
+[33mcommit ae31d1b7afd7b9fddba08ed66f1e72058471bab4[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Mon Oct 28 08:59:16 2024 +0530
+
+    Update project files for deployment compatibility
+
+[33mcommit 414b4f4c0820ec717460b0c7b1afd3de21b60fee[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Mon Oct 28 08:58:32 2024 +0530
+
+    Update vite.config.ts for Netlify and GitHub Pages compatibility
+
+[33mcommit aa60e1f228c9a604d660724030fd0225f5c986bf[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Wed Oct 23 20:46:22 2024 +0530
+
+    deploy for changes
+
+[33mcommit e34d087ec0c3c2c156ca379d99a95376b336e131[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 22:46:57 2024 +0530
+
+    changes for deployment
+
+[33mcommit fe8ba8fa92ab537d669593b47508e37438d09ea8[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 14:36:45 2024 +0530
+
+    change for deployment
+
+[33mcommit 272be53c622466566bbf81e2b641614747b245ef[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 14:31:27 2024 +0530
+
+    "Added React imports to various components and main file"
+
+[33mcommit 1b0f4121ad6d4fe2f5fd5d6057cdddcef6dcf22b[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 14:28:52 2024 +0530
+
+    "Added React imports to various components and main file"
+
+[33mcommit 7d4308c063d30881faaf50fa558759f35d546cd0[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 12:41:11 2024 +0530
+
+    first commit
+
+[33mcommit 1b02669deb9f2a247120dc9b3edb820d6dbfca6c[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 12:36:10 2024 +0530
+
+    first commit
+
+[33mcommit e7f2c9f9b45ad3a492cb0a945167e6250614828e[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 11:45:22 2024 +0530
+
+    changes for deployment
+
+[33mcommit 2f2d5d818c53fe3a687f039420b33dead6fe4912[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 11:36:50 2024 +0530
+
+    added react pdf cdn
+
+[33mcommit b4dade07dd57bef91138e5944f52e71b80cb49a7[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 09:58:20 2024 +0530
+
+    "Updated package.json, removed resume PDF, and made changes to About, Experience, and Projects components"
+
+[33mcommit 82adf62ea4ee6f8cb6da5d63a22c936c67e803d5[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 09:46:49 2024 +0530
+
+    git add .
+
+[33mcommit 7fe8ca06a9869b890a8dc66cfaacd7a1eef55223[m
+Author: abhishek6164 <abhishekpipriye2507@gmail.com>
+Date:   Sat Oct 12 09:18:45 2024 +0530
+
+    first commit
