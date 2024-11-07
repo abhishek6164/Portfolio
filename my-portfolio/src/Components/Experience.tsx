@@ -1,7 +1,6 @@
 import { Timeline, useMatches } from "@mantine/core";
 import { IconBriefcaseFilled } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
-import React from "react";
 
 // Define the type for an individual experience item
 type ExperienceItem = {
@@ -61,11 +60,8 @@ const Experience = () => {
   };
 
   return (
-    <div
-      className="flex md-mx:flex-col px-16  my-10 font-mono md-mx:px-6  "
-      id="Experience"
-    >
-      <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white">
+    <div className="px-16  my-10 font-mono md-mx:px-6" id="Experience">
+      <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center   text-white">
         <span className="text-primaryColor">04.&nbsp;</span>Experience
       </h1>
       <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
